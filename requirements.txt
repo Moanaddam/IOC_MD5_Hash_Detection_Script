@@ -1,0 +1,10 @@
+# Required packages for running the IOC MD5 Hash Detection Script
+
+# The xml library is part of the Python standard library, but it's good to note it
+# No external libraries are required for this script
+
+# Ensure Python 3.x is being used
+python >=3.6
+
+# IOC Finder package for detecting indicators of compromise
+ioc-finder
