@@ -7,4 +7,4 @@
 python >=3.6
 
 # IOC Finder package for detecting indicators of compromise
-ioc-finder
+ioc-finder  (pip install ioc-finder)
