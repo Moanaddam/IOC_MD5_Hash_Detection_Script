@@ -19,9 +19,10 @@ This script scans a specified directory for the file `suspicious_sample.exe` and
 
 1. **Clone or Download the script**: Ensure you have the script saved in a `.py` file (e.g., `ioc_detector.py`).
 
-2. **Prepare your environment**: Place the IOC file (`fichier_suspect.ioc`) in a known directory and update the path in the script accordingly.
+2. **install ioc-finder**: `pip install ioc-finder`
+3. **Prepare your environment**: Place the IOC file (`fichier_suspect.ioc`) in a known directory and update the path in the script accordingly.
 
-3. **Edit script paths**: Open the script and update the paths:
+4. **Edit script paths**: Open the script and update the paths:
    - Locate the line:
      ```python
      tree = ET.parse(r'C:\Users\Admin\Downloads\foren2\IoC\fichier_suspect.ioc') #(YOUR OWN PATH !!!!)
@@ -33,6 +34,6 @@ This script scans a specified directory for the file `suspicious_sample.exe` and
      directory_to_scan = r'C:\Users\Admin\Downloads\foren2\IoC'  #(YOUR OWN PATH !!!!)
      ```
 
-4. **Run the script**: Execute the script using the command line:
+5. **Run the script**: Execute the script using the command line:
    ```bash
    python ioc_detector.py
